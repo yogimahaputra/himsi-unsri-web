@@ -1,0 +1,583 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 300vh;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.center-container{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    color: #364547;
+    /* border: 1px solid black; */
+}
+/*******************************/
+/********* Scrollbar CSS **********/
+/*******************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+/*******************************/
+/********* Navbar CSS **********/
+/*******************************/
+
+.nav{
+    letter-spacing: 1px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar a {
+    color: #364547 !important;
+}
+
+.nav-item{
+    padding: 0 2px;
+}
+
+.navbar-collapse{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dropdown-item:active{
+    background-color: white !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:active{
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*******************************/
+/********* content CSS **********/
+/*******************************/
+
+.hero-image {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+  }
+
+
+
+
+/*******************************/
+/********* Head left CSS **********/
+/*******************************/
+
+.left-container{
+    padding-top: 5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-container h1{
+    font-weight: 700;
+    /* font-size: 50px; */
+    font-size: 8vh;
+
+    
+    /* responsive */
+    /* font-size: 40px; */
+}
+.left-container p{
+    font-size: 2vh;
+}
+.left-container p span{
+    color: #A93543;
+    font-weight: bold;
+}
+
+.icon-container{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+
+ 
+.icon-container a{
+    color: #364547 !important;
+    font-size: 35px;
+    margin-right: 25px;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    font-size: 10px !important;
+    margin-top: 50%;
+    margin-left: 20%;
+}
+
+
+/*******************************/
+/********* Right CSS **********/
+/*******************************/
+
+.right-container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* .carousel{
+    border: 1px solid red;
+    height: 60vh;
+    width: 50%;
+    
+}
+
+.carousel img{
+    border: 1px solid blue;
+    height: 60vh;
+} */
+
+.section-head{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-head h1{
+    font-size: 48px;
+    /* font-size: 1vh; */
+    padding: 100px 0;
+}
+
+.text{
+    background-color: #364547;
+    color: #ffffff;
+}
+
+.section-bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 35vh;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-item img{
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 30vh;
+    background-color: black;
+}
+
+
+/*******************************/
+/********* Center CSS **********/
+/*******************************/
+
+.garis{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    color: #364547;
+    display: inline-block;
+    position: relative;
+    padding-left: 65%;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #364547;
+}
+/* 
+.garis::before{
+    position: absolute;
+    content: "";
+    width: 65%;
+    height: 2px;
+    background: #364547;
+    top: 0;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+/* 
+.garis-dua{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    color: #364547;
+    display: inline-block;
+    position: relative;
+    padding-left: 20%;
+}
+
+.garis-dua::before{
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background: #364547;
+    top: 0;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+/*******************************/
+/********* Center CSS **********/
+/*******************************/
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.click a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    color: #364547;
+}
+
+.click a:hover{
+    color: #364547;
+    text-decoration: none;
+}
+
+.fa-chevron-down{
+    font-size: 24px;
+    animation: bounce 5s infinite;
+    z-index: 0;
+}
+
+@keyframes bounce {
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+/*******************************/
+/********* center CSS **********/
+/*******************************/
+.center-div{
+    width: 100%;
+    background-color: #ffffff;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+        /* border: 1px solid red; */
+}
+
+
+.panel{
+    /* border: 1px solid green; */
+    width: 90%;
+}
+
+.item{
+    width: 100%;
+}
+
+
+.item h1{
+    font-size: 42px;
+}
+
+.garis-center{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+    color: #364547;
+    display: inline-block;
+    position: relative;
+    padding-left: 15%;
+
+}
+
+.garis-center::before{
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #364547;
+    top: 0;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-icon a{
+    color: #364547 !important;
+    font-size: 24px;
+}
+
+.item-1{
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #364547;
+}
+.item-1 p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+}
+
+.item-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar-center{
+    background: url('../img/rame.jpg');
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+/*******************************/
+/********* Center CSS **********/
+/*******************************/
+
+.fitur{
+    margin-top: 60px;
+}
+
+.fitur h1{
+    text-align: center;
+    color: #364547;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.fitur h1 span{
+    color: #A93543;
+}
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    margin-top: 45px;
+    background: #364547;
+}
+
+.footer .container-fluid {
+    padding: 60px 0 0 0;
+}
+
+.footer .footer-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer-info h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer .footer-info h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer .footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-menu p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 15px;
+    border-right: 1px solid #ffffff;
+}
+
+.footer .footer-menu p:last-child {
+    border: none;
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer .footer-social a {
+    display: inline-block;
+}
+
+.footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.footer .footer-social a:last-child i {
+    margin: 0;
+}
+
+.footer .footer-social a:hover i {
+    color: #414141;
+}
+
+.footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.copyright p{
+    text-align: center;
+}
+.footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(256, 256, 256, .2);
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer .copyright p a:hover {
+    color: #414141;
+}
+
+@media (max-width: 575.98px) {
+    .footer .footer-info h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .footer .footer-info h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .footer .footer-menu p {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 0 5px;
+    }
+}

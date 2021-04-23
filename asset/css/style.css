@@ -6,7 +6,6 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    height: 300vh;
     text-decoration: none;
     list-style: none;
 }
@@ -442,6 +441,8 @@ body{
 
 .fitur{
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fitur h1{
@@ -450,10 +451,25 @@ body{
     font-weight: bold;
     padding-top: 50px;
 }
+.fitur h2{
+    text-align: center;
+    width: 10%;
+    border-bottom: 5px solid #364547;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
 
 .fitur h1 span{
     color: #A93543;
 }
+
+/* .container-fitur{
+    width: 100%;
+    border: 1px solid red;
+
+} */
+
+
 
 /*******************************/
 /********* Footer CSS **********/

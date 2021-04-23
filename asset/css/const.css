@@ -2,3 +2,34 @@
     color: #364547 !important;
     font-weight: 700 ;
 }
+
+.scrolling-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+
+.scrolling-wrapper 
+{
+-webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.card{
+    border: 1px solid red;
+    margin-right: 10px;
+}
+
+.card i{
+    font-size: 45px;
+    padding: 80px;
+}

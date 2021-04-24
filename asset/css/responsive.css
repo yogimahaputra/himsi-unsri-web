@@ -98,7 +98,6 @@
     /*******************************/
     .center-div{
         width: 100%;
-        background-color: #ffffff;
         background-size: cover;
         padding-left: 0;
         padding-right: 0;
@@ -203,5 +202,11 @@
 
     .scrolling-wrapper {
         margin-bottom: 50px;
+    }
+
+    .carousel-cell 
+    {
+        border-radius: 10px;
+        width: 90%;
     }
 }

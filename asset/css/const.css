@@ -5,6 +5,7 @@
 
 .hero-background{
     background: linear-gradient(to bottom,rgba(255,255,255, 0.9),rgba(255,255,255, 1)),url('../img/album.jpg');
+    /* background: url('../img/background5.png'); */
     position: absolute;
     top: 0;
     left: 0;
@@ -42,14 +43,57 @@
 }
 
 .card{
-    border: 1px solid red;
     margin-right: 10px;
 }
 
 .card i{
     font-size: 45px;
-    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    color: #364547;
 }
+
+
+
+.card h2{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #364547;
+    font-size: 1.5rem;
+}
+
+.card span{
+    margin-bottom: 30px;
+}
+
+
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+}
+
+.card:hover  h2{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #364547;
+}
+
+.card:active{
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+}
+
 
 /*******************************/
 /********* Carausel manual 2 CSS **********/
@@ -71,6 +115,14 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+}
+
+.scrolling-wrapper-news h5 {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;  /* Number of lines displayed before it truncate */
      overflow: hidden;
 }
 
@@ -99,9 +151,10 @@
 }
 
 .card{
-    border: 1px solid red;
     margin-right: 10px;
 }
+
+
 
 .card i{
     font-size: 45px;
@@ -132,14 +185,7 @@
     align-items: center;
 }
 
-.carousel-cell-steatment{
-    display:block;
-    object-fit: cover;
-    border-radius: 20px;
-    width: 100%;
-    height: 50vh;
-    margin-right: 10px;
-}
+
 
 .container-cell 
 {
@@ -163,4 +209,114 @@
     margin-right: 10px;
     border: 1px solid #aaaa;
     margin-top: 20px;
+}
+
+/*******************************/
+/********* Carausel steatment CSS **********/
+/*******************************/
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #364547;
+    object-fit: cover;
+  }
+
+/* .salman{
+    background-image: url('../img/salman.png');
+    background-size: 150%;
+    background-position: center;
+    background-position-y: 0px;
+} */
+
+  .carousel-cell-steatment{
+    display:block;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.steatment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.steatment p{
+    padding-top: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 50%;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+}
+
+
+
+.carousel-tes-head 
+{
+    display:block;
+    width: 80%;
+    height: 40vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid #f6f6f6;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+    
+.carousel-tes {
+    display:block;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-head{
+    position: relative; width: 100%; 
+    display: flex !important; justify-content: center !important; align-items: center !important; flex-direction: column; 
+}
+
+.title{
+    text-align: left !important; 
+    line-height: 18px;
+    width: 80% !important; 
+    font-weight: bold; 
+    font-size: 14px !important; 
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.name{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important; 
+    width: 80% !important;  
+    font-size: 9px !important; 
 }

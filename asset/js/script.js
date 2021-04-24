@@ -27,12 +27,36 @@ function tes(params) {
         badge.innerHTML = `<i class="fas fa-podcast"></i>`
     }, 1000);
     setInterval(function(){ 
-        badge.innerHTML = `<i class="fas fa-podcast"></i><span class="badge badge-danger">New</span>`
+        badge.innerHTML = `<i class="fas fa-podcast"></i><span class="badge badge-head badge-danger">New</span>`
     }, 2000);
     setInterval(function(){ 
-        badge.innerHTML += `<span class="badge badge-danger">Podcast himsi</span>`
+        badge.innerHTML += `<span class="badge badge-head badge-danger">Podcast himsi</span>`
     }, 3000);
 }
 
 tes();
 
+var elem = document.querySelector('.carousel');
+var flkty = new Flickity( elem, {
+freeScroll: true,
+contain: true,
+prevNextButtons: false,
+pageDots: false
+});
+
+var elem_tow = document.querySelector('.carousel-steatment');
+var flkty_two = new Flickity( elem_tow, {
+freeScroll: true,
+contain: true,
+prevNextButtons: true,
+pageDots: false
+});
+
+var elem_three = document.querySelector('.carousel-tes');
+var flkty_three = new Flickity( elem_three, {
+freeScroll: true,
+contain: true,
+prevNextButtons: false,
+pageDots: true,
+lazyLoad: 1
+});

@@ -13,6 +13,7 @@ body{
 .content{
     padding-top: 50px;
     background-color: #f6f6f6;
+    padding-bottom: 50px;
 }
 
 .center-container{
@@ -200,7 +201,8 @@ body{
     margin-right: 25px;
     position: relative;
 }
-.badge{
+
+.badge-head{
     position: absolute;
     font-size: 10px !important;
     margin-top: 50%;
@@ -584,3 +586,42 @@ body{
     0 32px 64px rgba(0,0,0,0.07);
 }
 
+
+
+.line-news{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #364547;
+    display: inline-block;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.line-news::before{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: #364547;
+    top: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line-news::after{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: #364547;
+    top: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -137,6 +137,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 30px;
+    padding-bottom: 20px;
   }
 
 
@@ -572,8 +573,8 @@ body{
 
 .insta{
     border-radius: 20px;
-    width: 50%;
-    height: 30vh;
+    width: 250px;
+    height: 250px;
     background-color: #ffffff;
     border: 1px solid #aaaa;
     background-image: url('../img/instagram.jpeg');

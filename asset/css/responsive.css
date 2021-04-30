@@ -2,17 +2,14 @@
     .navbar-brand {
         margin-left: 120px;
     }
-    .navbar-collapse{
+    .navbar-collapse {
         margin-left: 0px;
         margin-top: 0px;
     }
-
-
 }
 
 @media only screen and (max-width: 984px) {
-
-    .content-head{
+    .content-head {
         z-index: 1 !important;
         padding: 0px 10px;
         width: 100%;
@@ -21,67 +18,59 @@
         color: #364547;
         /* border: 1px solid black; */
     }
-
-    .center-container{
+    .center-container {
         display: flex;
         flex-direction: column;
     }
-
-    .navbar{
+    .navbar {
         padding: 0px !important;
     }
-    
-    .navbar-collapse{
+    .navbar-collapse {
         text-align: center;
         padding: 0 !important;
         margin: 0 !important;
         margin-left: 0px;
     }
-
-    .dropdown-menu a{
+    .dropdown-menu a {
         text-align: center;
     }
-    .left-container{
+    .left-container {
         padding-top: 0vh;
         padding-left: 10px;
-        
         /* display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; */
     }
-    .left-container h1{
+    .left-container h1 {
         font-weight: 700;
         /* responsive */
         font-size: 2.5rem;
     }
-    .left-container p{
+    .left-container p {
         font-size: 0.7rem;
     }
-
-    #badge{
+    #badge {
         top: 8px;
         display: flex;
         flex-direction: column;
     }
-
-    .badge{
+    .badge {
         top: -6px;
         left: 25px;
+        padding: 3px !important;
     }
-    
-    .icon-container a{
+    .icon-container a {
         color: #364547 !important;
         font-size: 1.8rem;
         margin-right: 18px;
         position: relative;
     }
-    .section-head h1{
+    .section-head h1 {
         font-size: 3vh;
         padding: 50px 0;
     }
-
-    .garis{
+    .garis {
         /* border: 1px solid red; */
         width: 100%;
         border-radius: 10px;
@@ -94,15 +83,16 @@
         color: white;
         background-color: #364547;
         padding: 10px 0px;
-        display: inline-block;
+        /* display: inline-block; */
+        display: none;
         position: relative;
         padding-left: 0%;
         text-align: center;
-        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-fill-color: white;
+        /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 0px;
         -webkit-text-stroke-color: white;
     }
-    
     /* .garis::before{
         position: absolute;
         content: "";
@@ -114,44 +104,33 @@
         top: 50%;
         transform: translateY(-50%);
     } */
-
-    .click{
+    .click {
         display: none;
     }
-
-    .center-icon a{
+    .center-icon a {
         color: #ffffff !important;
     }
-
-    
     /*******************************/
     /********* center CSS **********/
     /*******************************/
-    .center-div{
+    .center-div {
         width: 100%;
         background-size: cover;
         padding-left: 0;
         padding-right: 0;
-            /* border: 1px solid red; */
-
+        /* border: 1px solid red; */
     }
-
-
-    .panel{
+    .panel {
         /* border: 1px solid green; */
         width: 100%;
     }
-
-    .item{
+    .item {
         width: 100%;
     }
-
-
-    .item h1{
+    .item h1 {
         font-size: 42px;
     }
-
-    .garis-center{
+    .garis-center {
         font-size: 14px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -160,10 +139,8 @@
         display: inline-block;
         position: relative;
         padding-left: 10%;
-
     }
-
-    .garis-center::before{
+    .garis-center::before {
         position: absolute;
         content: "";
         width: 20%;
@@ -174,13 +151,11 @@
         top: 50%;
         transform: translateY(-50%);
     }
-
-    .center-icon a{
+    .center-icon a {
         color: #364547 !important;
         font-size: 24px;
     }
-
-    .item-1{
+    .item-1 {
         width: 100%;
         padding-top: 50px;
         padding-left: 25px;
@@ -188,123 +163,102 @@
         color: #364547;
         /* border: 1px solid black; */
     }
-
-    .item-1 h1{
+    .item-1 h1 {
         font-size: 2.5rem;
     }
-    .item-1 p{
+    .item-1 p {
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 5;  /* Number of lines displayed before it truncate */
+        -webkit-line-clamp: 5;
+        /* Number of lines displayed before it truncate */
         overflow: hidden;
         font-size: 0.8rem;
     }
-
-    .item-2{
+    .item-2 {
         /* border: 1px solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .gambar-center{
+    .gambar-center {
         /* border: 1px solid red; */
         width: 100%;
         height: 50vh;
         object-fit: cover;
     }
-
-    .fitur{
+    .fitur {
         margin-top: 10px;
     }
-
-    .fitur h1{
+    .fitur h1 {
         font-size: 1.5rem;
     }
-
-    .fitur h2{
+    .fitur h2 {
         text-align: center;
         width: 20%;
         border-bottom: 5px solid #364547;
         margin-bottom: 50px;
         margin-top: 20px;
     }
-
     .scrolling-wrapper {
         margin-bottom: 50px;
     }
-
-    .carousel-cell 
-    {
+    .carousel-cell {
         border-radius: 10px;
         width: 90%;
     }
-
-    .carousel-cell-steatment
-    {
+    .carousel-cell-steatment {
         border-radius: 10px;
         width: 100%;
     }
-
     .instagram-section {
         width: 100%;
         height: 100%;
         padding-top: 100px;
         padding-bottom: 80px;
     }
-    .instagram-section .left-container{
+    .instagram-section .left-container {
         /* border: 1px solid red; */
         padding: 0px;
         padding-left: 5%;
         width: 100%;
         height: 100%;
     }
-    
-    .instagram-section .right-container{
+    .instagram-section .right-container {
         /* border: 1px solid red; */
         width: 100%;
         display: flex;
         justify-content: center;
         padding-top: 50px;
     }
-
-    .insta{
+    .insta {
         border-radius: 20px;
-        width: 50%;
-        height: 27vh;
+        width: 250px;
+        height: 250px;
         background-color: #ffffff;
         background-image: url('../img/instagram.jpeg');
         background-size: cover;
         border: 1px solid #aaaa;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
-        0 2px 4px rgba(0,0,0,0.07), 
-        0 4px 8px rgba(0,0,0,0.07), 
-        0 8px 16px rgba(0,0,0,0.07),
-        0 16px 32px rgba(0,0,0,0.07), 
-        0 32px 64px rgba(0,0,0,0.07);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
     }
-
-    .steatment p{
+    .steatment p {
         padding-top: 30px;
         text-align: center;
         /* border: 1px solid red; */
         width: 80%;
         font-size: 10px;
     }
-
-    .steatment small{
+    .steatment small {
         font-size: 10px;
     }
-    
-    .steatment{
+    .steatment {
         display: flex;
         flex-direction: column !important;
+        padding-bottom: 20px;
     }
-
-    .carousel-tes-head 
-    {
-        display:block;
-        width: 70%;
-        height: 40vh;
+    .carousel-tes-head {
+        display: block;
+        width: 250px;
+        height: 300px;
         margin: 10px;
         margin-bottom: 20px;
         display: flex;
@@ -317,22 +271,15 @@
         border-left: 1px solid rgba(255, 255, 255, 0.5);
         object-fit: cover;
         border-radius: 15px;
-        box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-        0 2px 2px rgba(0,0,0,0.11), 
-        0 4px 4px rgba(0,0,0,0.11), 
-        0 6px 8px rgba(0,0,0,0.11),
-        0 8px 16px rgba(0,0,0,0.11);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.11);
     }
-
-    .right-container{
+    .right-container {
         padding-top: 80px;
     }
-
-    .title{
-        width: 70% !important; 
+    .title {
+        width: 70% !important;
     }
-    
-    .name{
-        width: 70% !important;  
+    .name {
+        width: 70% !important;
     }
 }

@@ -1,20 +1,4 @@
-.active {
-    color: #364547 !important;
-    font-weight: 700;
-}
 
-.hero-background {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url('../img/album.jpg');
-    /* background: url('../img/background5.png'); */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;
-}
 
 /*******************************/
 

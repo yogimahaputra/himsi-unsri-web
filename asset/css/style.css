@@ -1,7 +1,8 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font: 'San Francisco', Helvetica, Arial, san-serif;
     padding: 0;
     margin: 0;
@@ -10,13 +11,13 @@ body{
     list-style: none;
 }
 
-.content{
+.content {
     padding-top: 50px;
     background-color: #f6f6f6;
     padding-bottom: 50px;
 }
 
-.center-container{
+.center-container {
     /* border: 1px solid blue; */
     width: 100%;
     display: flex;
@@ -24,130 +25,149 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     z-index: 1 !important;
     padding: 0;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
     color: #364547;
     /* border: 1px solid black; */
 }
 
-.content-head{
+.content-head {
     z-index: 1 !important;
     padding: 0px 150px;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
     color: #364547;
     /* border: 1px solid black; */
 }
 
-.left-container{
+.left-container {
     position: relative;
     display: block;
 }
 
-.row{
+.row {
     padding: 0 !important;
     margin: 0 !important;
 }
 
+.active {
+    color: #364547 !important;
+    font-weight: 700;
+}
+
+.hero-background {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)), url('../img/album.jpg');
+    /* background: url('../img/background5.png'); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
 /*******************************/
+
 /********* Scrollbar CSS **********/
+
 /*******************************/
 
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+}
 
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 /*******************************/
+
 /********* Navbar CSS **********/
+
 /*******************************/
 
-.nav{
+.nav {
     letter-spacing: 1px;
     z-index: 10 !important;
 }
 
-.navbar-brand{
-    vertical-align:middle;
+.navbar-brand {
+    vertical-align: middle;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
+
 .navbar a {
     color: #364547 !important;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 2px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.dropdown-item:active{
+.dropdown-item:active {
     background-color: white !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none !important;
 }
 
-.navbar-toggler:active{
+.navbar-toggler:active {
     border: none !important;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
 }
 
 /*******************************/
+
 /********* content CSS **********/
+
 /*******************************/
 
 .hero-image {
     /* border: 1px solid red; */
-
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 30px;
     padding-bottom: 20px;
-  }
-
-
-
+}
 
 /*******************************/
+
 /********* Head left CSS **********/
+
 /*******************************/
 
-.left-container{
+.left-container {
     padding-top: 5vh;
     padding-left: 20px;
     padding-right: 20px;
@@ -160,62 +180,60 @@ body{
     align-items: center;
 }
 
-.right-container{
+.right-container {
     width: 100%;
     height: 100%;
-    
     /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left-container h1{
+.left-container h1 {
     font-weight: 700;
     /* font-size: 50px; */
     font-size: 8vh;
-
-    
     /* responsive */
     /* font-size: 40px; */
 }
-.left-container p{
+
+.left-container p {
     font-size: 2vh;
 }
-.left-container p span{
+
+.left-container p span {
     color: #A93543;
     font-weight: bold;
 }
 
-.icon-container{
+.icon-container {
     width: 100%;
     display: flex;
     margin-top: 10px;
     /* border: 1px solid red; */
 }
 
-
- 
-.icon-container a{
+.icon-container a {
     color: #364547 !important;
     font-size: 35px;
     margin-right: 25px;
     position: relative;
 }
 
-.badge-head{
+.badge-head {
     position: absolute;
     font-size: 10px !important;
     margin-top: 50%;
     margin-left: 20%;
 }
 
-
 /*******************************/
+
 /********* Right CSS **********/
+
 /*******************************/
 
-.right-container{
+.right-container {
     /* border: 1px solid red; */
     width: 100%;
     height: 100%;
@@ -223,64 +241,51 @@ body{
     justify-content: center;
     align-items: center;
 }
-  
-/* .carousel{
-    border: 1px solid red;
-    height: 60vh;
-    width: 50%;
-    
-}
 
-.carousel img{
-    border: 1px solid blue;
-    height: 60vh;
-} */
-
-.section-head{
+.section-head {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-head h1{
+.section-head h1 {
     font-size: 48px;
     /* font-size: 1vh; */
     padding: 100px 0;
 }
 
-.text{
+.text {
     background-color: #364547;
     color: #ffffff;
 }
 
-.section-bar{
+.section-bar {
     /* border: 1px solid red; */
     width: 100%;
     height: 35vh;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.carousel-item img{
+.carousel-item img {
     /* border: 1px solid red; */
     width: 98%;
     height: 30vh;
     background-color: black;
-    
 }
 
-
 /*******************************/
+
 /********* Center CSS **********/
+
 /*******************************/
 
-.garis{
+.garis {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -290,56 +295,26 @@ body{
     display: inline-block;
     position: relative;
     padding-left: 65%;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    /* Will override color (regardless of order) */
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #364547;
 }
-/* 
-.garis::before{
-    position: absolute;
-    content: "";
-    width: 65%;
-    height: 2px;
-    background: #364547;
-    top: 0;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
-/* 
-.garis-dua{
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 22px;
-    color: #364547;
-    display: inline-block;
-    position: relative;
-    padding-left: 20%;
-}
-
-.garis-dua::before{
-    position: absolute;
-    content: "";
-    width: 60%;
-    height: 3px;
-    background: #364547;
-    top: 0;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 
 /*******************************/
+
 /********* Center CSS **********/
+
 /*******************************/
-.click{
+
+.click {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.click a{
+.click a {
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -348,77 +323,71 @@ body{
     color: #364547;
 }
 
-.click a:hover{
+.click a:hover {
     color: #364547;
     text-decoration: none;
 }
 
-.fa-chevron-down{
+.fa-chevron-down {
     font-size: 24px;
     animation: bounce 5s infinite;
     z-index: 0;
 }
 
 @keyframes bounce {
-    from,
-    20%,
-    53%,
-    80%,
-    to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
+    from, 20%, 53%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
-  
-    40%,
-    43% {
-      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      -webkit-transform: translate3d(0, -30px, 0);
-      transform: translate3d(0, -30px, 0);
+    40%, 43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
     }
-  
     70% {
-      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-      -webkit-transform: translate3d(0, -15px, 0);
-      transform: translate3d(0, -15px, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
     }
-  
     90% {
-      -webkit-transform: translate3d(0, -4px, 0);
-      transform: translate3d(0, -4px, 0);
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
     }
-  }
+}
 
 /*******************************/
+
 /********* center CSS **********/
+
 /*******************************/
-.center-div{
+
+.center-div {
     width: 100%;
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
-        /* border: 1px solid red; */
+    padding-top: 150px;
+    /* border: 1px solid red; */
 }
 
-
-.panel{
+.panel {
     /* border: 1px solid green; */
     width: 100%;
 }
 
-.item{
+.item {
     width: 100%;
 }
 
-
-.item h1{
+.item h1 {
     font-size: 42px;
 }
 
-.garis-center{
+.garis-center {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -427,10 +396,9 @@ body{
     display: inline-block;
     position: relative;
     padding-left: 15%;
-
 }
 
-.garis-center::before{
+.garis-center::before {
     position: absolute;
     content: "";
     width: 40%;
@@ -442,12 +410,12 @@ body{
     transform: translateY(-50%);
 }
 
-.center-icon a{
+.center-icon a {
     color: #364547 !important;
     font-size: 24px;
 }
 
-.item-1{
+.item-1 {
     width: 50%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -455,44 +423,49 @@ body{
     padding-right: 100px;
     color: #364547;
 }
-.item-1 p{
+
+.item-1 p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;  /* Number of lines displayed before it truncate */
-     overflow: hidden;
+    -webkit-line-clamp: 5;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
 }
 
-.item-2{
+.item-2 {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.gambar-center{
+
+.gambar-center {
     /* border: 1px solid red; */
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-
 /*******************************/
+
 /********* Center CSS **********/
+
 /*******************************/
 
-.fitur{
+.fitur {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
 
-.fitur h1{
+.fitur h1 {
     text-align: center;
     color: #364547;
     font-weight: bold;
     padding-top: 50px;
 }
-.fitur h2{
+
+.fitur h2 {
     text-align: center;
     width: 10%;
     border-bottom: 5px solid #364547;
@@ -500,20 +473,42 @@ body{
     margin-top: 20px;
 }
 
-.fitur h1 span{
+.line{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.line h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 80px;
+    -webkit-text-fill-color: #f6f6f6;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #364547;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.line h2 {
+    width: 10%;
+    border-bottom: 5px solid #364547;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+
+.fitur h1 span {
     color: #A93543;
 }
 
-/* .container-fitur{
-    width: 100%;
-    border: 1px solid red;
-
-} */
-
-
-
 /*******************************/
+
 /********* Instagram CSS **********/
+
 /*******************************/
 
 .instagram-section {
@@ -522,7 +517,8 @@ body{
     padding-top: 150px;
     padding-bottom: 80px;
 }
-.instagram-section .left-container{
+
+.instagram-section .left-container {
     /* border: 1px solid red; */
     padding: 0px;
     padding-left: 20%;
@@ -530,25 +526,26 @@ body{
     height: 100%;
 }
 
-.instagram-section .right-container{
+.instagram-section .right-container {
     /* border: 1px solid red; */
     width: 50%;
     display: flex;
     justify-content: left;
 }
 
-.instagram-section h1{
-    -webkit-text-fill-color: #f6f6f6; /* Will override color (regardless of order) */
+.instagram-section h1 {
+    -webkit-text-fill-color: #f6f6f6;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #364547;
 }
 
-.instagram-section span{
+.instagram-section span {
     width: 100%;
     margin-left: 0px;
 }
 
-.garis-insta{
+.garis-insta {
     font-size: 14px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
@@ -559,7 +556,7 @@ body{
     left: 0;
 }
 
-.garis-insta::before{
+.garis-insta::before {
     position: absolute;
     content: "";
     width: 10%;
@@ -571,7 +568,7 @@ body{
     transform: translateY(-50%);
 }
 
-.insta{
+.insta {
     border-radius: 20px;
     width: 250px;
     height: 250px;
@@ -579,17 +576,16 @@ body{
     border: 1px solid #aaaa;
     background-image: url('../img/instagram.jpeg');
     background-size: cover;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
-    0 2px 4px rgba(0,0,0,0.07), 
-    0 4px 8px rgba(0,0,0,0.07), 
-    0 8px 16px rgba(0,0,0,0.07),
-    0 16px 32px rgba(0,0,0,0.07), 
-    0 32px 64px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
+/*******************************/
 
+/********* News CSS **********/
 
-.line-news{
+/*******************************/
+
+.line-news {
     font-size: 3vh;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
@@ -598,12 +594,12 @@ body{
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
 }
 
-.line-news::before{
+.line-news::before {
     position: absolute;
     content: "";
     width: 10%;
@@ -615,7 +611,7 @@ body{
     transform: translateY(-50%);
 }
 
-.line-news::after{
+.line-news::after {
     position: absolute;
     content: "";
     width: 10%;
@@ -625,4 +621,281 @@ body{
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+
+/*******************************/
+
+/********* Carausel manual CSS **********/
+
+/*******************************/
+
+.scrolling-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.scrolling-wrapper .card {
+    display: inline-block;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin-right: 10px;
+}
+
+.card i {
+    font-size: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    color: #364547;
+}
+
+.card h2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #364547;
+    font-size: 1.5rem;
+}
+
+.card span {
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.20);
+}
+
+.card:hover h2 {
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #364547;
+}
+
+.card:active {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.20);
+}
+
+/*******************************/
+
+/********* Carausel manual 2 CSS **********/
+
+/*******************************/
+
+.scrolling-wrapper-news {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 20px;
+    /* margin-left: 100px; */
+}
+
+.scrolling-wrapper-news p {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
+}
+
+.scrolling-wrapper-news h5 {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
+}
+
+.scrolling-wrapper-news .card-body {
+    text-align: left;
+}
+
+.scrolling-wrapper-news .card-body .read {
+    width: 100%;
+    text-align: right !important;
+}
+
+.scrolling-wrapper-news .card {
+    display: inline-block;
+}
+
+.scrolling-wrapper-news {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-news::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin-right: 10px;
+}
+
+.card i {
+    font-size: 45px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 30vh;
+}
+
+/*******************************/
+
+/********* Carausel plugin CSS **********/
+
+/*******************************/
+
+.carousel {
+    background-color: none;
+}
+
+.carousel-cell {
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 50vh;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-cell-news {
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 50vh;
+    margin-right: 10px;
+    border: 1px solid #aaaa;
+    margin-top: 20px;
+}
+
+/*******************************/
+
+/********* Carausel steatment CSS **********/
+
+/*******************************/
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #364547;
+    object-fit: cover;
+}
+
+.carousel-cell-steatment {
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.steatment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.steatment p {
+    padding-top: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 50%;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    /* Number of lines displayed before it truncate */
+    overflow: hidden;
+}
+
+.carousel-tes-head {
+    display: block;
+    width: 210px;
+    height: 260px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid #f6f6f6;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.carousel-tes {
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-head {
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.title {
+    text-align: left !important;
+    line-height: 18px;
+    width: 200px !important;
+    font-weight: bold;
+    font-size: 14px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.name {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    width: 200px !important;
+    font-size: 9px !important;
 }

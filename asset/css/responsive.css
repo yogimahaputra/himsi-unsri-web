@@ -118,6 +118,7 @@
         background-size: cover;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 20px;
         /* border: 1px solid red; */
     }
     .panel {
@@ -199,8 +200,37 @@
         margin-bottom: 50px;
         margin-top: 20px;
     }
+
+    
+.line{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.line h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 40px;
+    -webkit-text-fill-color: #f6f6f6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #364547;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.line h2 {
+    width: 30%;
+    border-bottom: 5px solid #364547;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
     .scrolling-wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .carousel-cell {
         border-radius: 10px;
@@ -209,6 +239,7 @@
     .carousel-cell-steatment {
         border-radius: 10px;
         width: 100%;
+        margin-bottom: 20px;
     }
     .instagram-section {
         width: 100%;
@@ -281,5 +312,29 @@
     }
     .name {
         width: 70% !important;
+    }
+
+    .title {
+        text-align: center !important;
+        line-height: 18px;
+        width: 250px !important;
+        font-weight: bold;
+        font-size: 14px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .name {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+        width: 250px !important;
+        font-size: 9px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .line-news {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }

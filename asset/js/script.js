@@ -96,11 +96,9 @@ var preloader = document.getElementById('preloader-active')
 var elem = document.querySelector('.preloader');
 
 function loader(params) {
-    window.addEventListener('load',function(){
-        setTimeout(function () {
-            elem.style.display = "none";
-        }, 3000);
-    });
+    setTimeout(function () {
+        elem.style.display = "none";
+    }, 2000);
 }
   
 loader();

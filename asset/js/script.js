@@ -88,3 +88,19 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
   
 }
+
+var preloader = document.getElementById('preloader-active')
+
+
+var preloader = document.getElementById('preloader-active')
+var elem = document.querySelector('.preloader');
+
+function loader(params) {
+    window.addEventListener('load',function(){
+        setTimeout(function () {
+            elem.style.display = "none";
+        }, 3000);
+    });
+}
+  
+loader();

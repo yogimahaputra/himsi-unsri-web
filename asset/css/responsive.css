@@ -166,6 +166,7 @@
     }
     .item-1 h1 {
         font-size: 2.5rem;
+        text-transform: uppercase;
     }
     .item-1 p {
         display: -webkit-box;
@@ -235,6 +236,7 @@
     .carousel-cell {
         border-radius: 10px;
         width: 90%;
+        object-position: -280px 10px;
     }
     .carousel-cell-steatment {
         border-radius: 10px;

@@ -444,6 +444,10 @@ body {
     color: #364547;
 }
 
+.item-1 h1{
+    text-transform: uppercase;
+}
+
 .item-1 p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -804,6 +808,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner1{
+    object-position: 0px 10px;
 }
 
 .carousel-cell-news {

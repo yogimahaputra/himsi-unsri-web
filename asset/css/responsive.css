@@ -236,10 +236,11 @@
     .carousel-cell {
         border-radius: 10px;
         width: 90%;
+        height: 15vh;
     }
 
     .banner1{
-        object-position: -250px 10px;
+        object-position: 0px 10px;
     }
 
     .carousel-cell-steatment {

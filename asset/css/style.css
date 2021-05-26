@@ -2,6 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.fixed-top {
+    top: -10px;
+    transform: translateY(0px);
+    transition: transform 1s;
+    background-color: #ffffff;
+
+}
+
 body {
     font: 'San Francisco', Helvetica, Arial, san-serif;
     padding: 0;
